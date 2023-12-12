@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.smlban p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verd;
+    font-size: 1rem;
+    color: wheat;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+nav .nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(119, 218, 185);
+}
+.nav ul li{
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+.nav ul li a{
+    color: cornsilk;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: cornflowerblue;
+}
+.fbanner {
+    display: flex;
+    padding: 5px 65px;
+}
+.fbanner #mhead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fbanner #mhead #difcol{
+    color: rgb(13, 126, 88);
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+}
+#p1{
+    margin-top: 70px;
+}
+#p1 p{
+    text-align: justify;
+    text-indent: 2.4rem; 
+    line-height: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 400;
+    word-spacing: 2px; 
+}
+#p2 img{
+    transform: rotateY(-180deg);
+}
+.button #btn{
+    text-align: center;
+    margin: 4px 0;
+}
+.button #btn input {
+    padding: 11px 50px;
+    background: linear-gradient(to right, rgb(119, 218, 185), cornflowerblue);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: 3px 3px 8px black;
+    color: rgb(14, 99, 124);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button #btn input:hover{
+    color: rgb(42, 60, 159);
+}
