@@ -78,3 +78,23 @@ h3{
 .button #btn input:hover{
     color: rgb(42, 60, 159);
 }
+/* video section */
+.vdo{
+    display: flex;
+    justify-content: center;
+}
+.vdo #video iframe{
+    height: 250px;
+    width: 380px;
+    margin: 0 25px;
+    border-radius: 10px;
+}
+section h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(13, 126, 88);
+}
+#difcol{
+    color: rgb(13, 126, 88);
+    margin: 10px 0;
+}
